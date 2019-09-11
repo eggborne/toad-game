@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>Toad's Odyssey</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <script src="scripts/howler.min.js"></script> -->
+    <link rel="shortcut icon" href="assets/crouching.png" type="image/x-icon">
+    <link rel="icon" href="assets/crouching.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/crouching.png"/>
+    <!--<link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/crouching.png"/>-->
+    <link rel="shortcut icon" href="assets/crouching.png" type="image/x-icon">
+
+</head>
+
+<body onload="PIXI.loader.add('assets/ledgesprites.json').load(function(){init()});" oncontextmenu="return false">
+<div id="shade"></div>
+<div id="blinder-left"></div>
+<div id="blinder-right"></div>
+<div id="game-canvas"></div>
+<div id="nes-back"></div>
+<div id="nes-panel"></div>
+<div id="coins"></div>
+<div id="location"></div>
+<div id="time"></div>
+
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> 
+<!--<script src="gamepad.js"></script>-->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.min.js"></script>
+<script src="event.js"></script>
+<script src="util.js"></script>
+<script src="patterns.js"></script>
+<script src="structures.js"></script>
+<script src="world.js"></script>
+<script src="weather.js"></script>
+<script src="camera.js"></script>
+<script src="dialogue.js"></script>
+<script src="enemies.js"></script>
+<script src="player.js"></script>
+<script src="init.js"></script>
+<script src="control.js"></script>
+<script src="exec.js"></script>
+</html>
